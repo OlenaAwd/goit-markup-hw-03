@@ -308,15 +308,37 @@ a {
 /* footer */
 footer {
   background-color: #2f303a;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .footer-container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
   padding-top: 60px;
   padding-bottom: 60px;
 
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  margin-right: 93px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  /* color: #000000; */
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
 
@@ -349,8 +371,6 @@ address,
 .portfolio {
   margin-top: 94px;
   margin-bottom: 94px;
-  width: 1200px;
-  text-align: center;
 }
 .button-container {
   padding-bottom: 50px;
@@ -401,7 +421,7 @@ address,
 
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.88;
   letter-spacing: 0.03em;
 }
 
